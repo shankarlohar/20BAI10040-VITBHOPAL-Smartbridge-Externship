@@ -1,5 +1,5 @@
 # Smartbridge-Externship
-Assignments from the externship program by VIT
+20BAI10040 - ASSIGNMENT DIRECTORY
 
 <table>
   <tr>
@@ -16,6 +16,9 @@ Assignments from the externship program by VIT
   <tr>
     <td>
       <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/5b472f0b-f8df-490b-9b9d-5925ea393138" controls width="400"></video>
+    </td>
+    <td>
+      <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/3879974c-fe65-42f9-ae34-4dfa57dce7dc" controls width="400"></video>
     </td>
   </tr>
 </table>
