@@ -71,6 +71,10 @@ fun BaseScreen(
                 mobile = mobile.value,
                 location = location.value
             )
+            name.value = ""
+            age.value = ""
+            mobile.value = ""
+            location.value = ""
             info.add(newDetails)
             Toast.makeText(context,"Data sent!", Toast.LENGTH_SHORT).show()
         }) {
