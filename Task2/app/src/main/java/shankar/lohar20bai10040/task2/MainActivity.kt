@@ -22,6 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import shankar.lohar20bai10040.task2.util.add
+import shankar.lohar20bai10040.task2.util.div
+import shankar.lohar20bai10040.task2.util.mul
+import shankar.lohar20bai10040.task2.util.sub
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
@@ -43,21 +47,21 @@ class MainActivity : ComponentActivity() {
                 TextField(value = b, onValueChange = {b = it})
                 Spacer(modifier = Modifier.padding(8.dp))
                 Row {
-                    Button(onClick = { /*TODO*/ }) {
+                    Button(onClick = { c = add(a,b) }) {
                         Text(text = "Addition")
                     }
                     Spacer(modifier = Modifier.padding(8.dp))
-                    Button(onClick = { /*TODO*/ }) {
+                    Button(onClick = { c = sub(a,b) }) {
                         Text(text = "Subtraction")
                     }
                 }
                 Spacer(modifier = Modifier.padding(8.dp))
                 Row {
-                    Button(onClick = { /*TODO*/ }) {
+                    Button(onClick = { c = mul(a,b) }) {
                     Text(text = "Multiplication")
                 }
                     Spacer(modifier = Modifier.padding(8.dp))
-                    Button(onClick = { /*TODO*/ }) {
+                    Button(onClick = { c = div(a,b) }) {
                         Text(text = "Division")
                     }
                 }
