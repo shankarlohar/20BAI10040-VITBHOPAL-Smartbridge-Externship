@@ -9,6 +9,9 @@ Assignments from the externship program by VIT
     <td>
       <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/281ff60c-4f58-461d-8735-240476800607" controls width="400"></video>
     </td>
+    <td>
+      <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/239a68ae-fd6f-4cc1-a3a8-2d5821f67c35" controls width="400"></video>
+    </td>
   </tr>
 </table>
 
