@@ -1,6 +1,7 @@
 package shankar.lohar20bai10040.task8
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,9 +12,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import shankar.lohar20bai10040.task8.ui.theme.Task8Theme
-import shankar.lohar20bai10040.task8.ui.view.screen.MainScreen
+import shankar.lohar20bai10040.task8.ui.view.screen.NextScreen
 
-class MainActivity : ComponentActivity() {
+class NextActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -23,10 +24,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen(context = this@MainActivity)
+                    val text = intent.getStringExtra("info")
+                    NextScreen(context = this@NextActivity,text.toString())
                 }
             }
         }
     }
 }
-

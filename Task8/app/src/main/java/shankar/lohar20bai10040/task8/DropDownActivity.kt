@@ -11,9 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import shankar.lohar20bai10040.task8.ui.theme.Task8Theme
-import shankar.lohar20bai10040.task8.ui.view.screen.MainScreen
+import shankar.lohar20bai10040.task8.ui.view.screen.DropDownScreen
+import shankar.lohar20bai10040.task8.ui.view.screen.SomeScreen
 
-class MainActivity : ComponentActivity() {
+class DropDownActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -23,10 +24,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen(context = this@MainActivity)
+                    val info = intent.getStringExtra("info")
+                    DropDownScreen(context = this@DropDownActivity,info.toString())
                 }
             }
         }
     }
 }
-
