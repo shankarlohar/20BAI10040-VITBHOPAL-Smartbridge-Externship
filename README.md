@@ -31,7 +31,7 @@
     <td>
       <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/270d32af-43e0-4c88-bc32-322d87098bdf" controls width="400"></video>
     </td>
-<!--     <td>
-      <video src="h" controls width="400"></video>
-    </td> -->
+    <td>
+      <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/6f19fd33-1d7d-4349-b1d1-8c2511d6fc60" controls width="400"></video>
+    </td>
   </tr>
