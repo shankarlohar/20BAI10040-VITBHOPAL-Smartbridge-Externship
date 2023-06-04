@@ -24,4 +24,15 @@
       <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/3b40256b-546e-4abf-bdf5-88d21d298f98" controls width="400"></video>
     </td>
   </tr>
+  <tr>
+    <td>
+      <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/406578f6-5a59-46bc-8013-3b0497dbbf02" controls width="400"></video>
+    </td>
+<!--     <td>
+      <video src="" controls width="400"></video>
+    </td>
+    <td>
+      <video src="h" controls width="400"></video>
+    </td> -->
+  </tr>
 </table>
