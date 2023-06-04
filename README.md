@@ -28,12 +28,10 @@
     <td>
       <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/406578f6-5a59-46bc-8013-3b0497dbbf02" controls width="400"></video>
     </td>
-<!--     <td>
-      <video src="" controls width="400"></video>
-    </td>
     <td>
+      <video src="https://github.com/shankarlohar/Smartbridge-Externship/assets/74100292/270d32af-43e0-4c88-bc32-322d87098bdf" controls width="400"></video>
+    </td>
+<!--     <td>
       <video src="h" controls width="400"></video>
     </td> -->
   </tr>
-</table>
-
